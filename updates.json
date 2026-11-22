@@ -1,0 +1,370 @@
+{
+ "store": {
+  "name": "OGBAD",
+  "tagline": "A new update. A whole new you.",
+  "email": "you@example.com",
+  "currency_symbol": "$",
+  "hero_eyebrow": "Independent minds. Find updates.",
+  "hero_title": "A new chapter.\nA whole new update.",
+  "hero_text": "Big ideas, practical guides, and fresh perspectives.\nFind the update that moves you forward.",
+  "hero_note": "Digital update. Lasting ideas.",
+  "hero_image": "images/hero.jpg",
+  "bank_name": "Your Bank Name",
+  "account_name": "Your Account Name",
+  "account_number": "0123456789",
+  "delivery_note": "Your update is sent to the email address you provide as soon as the admin confirms your payment."
+ },
+ "updates": [
+  {
+   "slug": "ui-design-zero-to-fluent",
+   "title": "UI design, from zero to fluent",
+   "author": "Maya Chen",
+   "category": "Zelle",
+   "price": 500,
+   "short": "A clear, hands-on path to interfaces that just feel right.",
+   "description": "Make interfaces that look good, feel intuitive, and work in the real world. A practical guide for curious beginners, from the first principles to your first polished product.\n\nA hands-on introduction to the decisions behind thoughtful interfaces. Build your confidence in layout, colour and typography, then bring it all together in a responsive project.",
+   "details": [
+    "PDF edition",
+    "English",
+    "Instant digital access"
+   ],
+   "highlights": [
+    "24 practical, bite-sized lessons",
+    "Project files & downloadable resources",
+    "Certificate of completion"
+   ],
+   "takeaways": [
+    "A confident grasp of visual fundamentals",
+    "A reusable set of components in Figma",
+    "A responsive project for your portfolio"
+   ],
+   "contents": [
+    "Lay the groundwork",
+    "Find your visual voice",
+    "Build your toolkit",
+    "Make it responsive",
+    "Bring your project to life"
+   ],
+   "images": [
+    "images/samples/s1.jpg",
+    "images/samples/s2.jpg",
+    "images/samples/s3.jpg",
+    "images/samples/s4.jpg",
+    "images/samples/s5.jpg"
+   ],
+   "created": "2026-11-20T10:00:00Z"
+  },
+  {
+   "slug": "build-a-brand-with-personality",
+   "title": "Build a brand with personality",
+   "author": "Maya Chen",
+   "category": "PayPal",
+   "price": 500,
+   "short": "Turn a good idea into a visual identity people remember.",
+   "description": "Make interfaces that look good, feel intuitive, and work in the real world. A practical guide for curious beginners, from the first principles to your first polished product.\n\nA hands-on introduction to the decisions behind thoughtful interfaces. Build your confidence in layout, colour and typography, then bring it all together in a responsive project.",
+   "details": [
+    "PDF edition",
+    "English",
+    "Instant digital access"
+   ],
+   "highlights": [
+    "24 practical, bite-sized lessons",
+    "Project files & downloadable resources",
+    "Certificate of completion"
+   ],
+   "takeaways": [
+    "A confident grasp of visual fundamentals",
+    "A reusable set of components in Figma",
+    "A responsive project for your portfolio"
+   ],
+   "contents": [
+    "Lay the groundwork",
+    "Find your visual voice",
+    "Build your toolkit",
+    "Make it responsive",
+    "Bring your project to life"
+   ],
+   "images": [
+    "images/samples/s2.jpg",
+    "images/samples/s3.jpg",
+    "images/samples/s4.jpg",
+    "images/samples/s5.jpg",
+    "images/samples/s6.jpg"
+   ],
+   "created": "2026-11-19T10:00:00Z"
+  },
+  {
+   "slug": "content-that-makes-a-connection",
+   "title": "Content that makes a connection",
+   "author": "Maya Chen",
+   "category": "Crypto",
+   "price": 500,
+   "short": "Find your voice and create content people care about.",
+   "description": "Make interfaces that look good, feel intuitive, and work in the real world. A practical guide for curious beginners, from the first principles to your first polished product.\n\nA hands-on introduction to the decisions behind thoughtful interfaces. Build your confidence in layout, colour and typography, then bring it all together in a responsive project.",
+   "details": [
+    "PDF edition",
+    "English",
+    "Instant digital access"
+   ],
+   "highlights": [
+    "24 practical, bite-sized lessons",
+    "Project files & downloadable resources",
+    "Certificate of completion"
+   ],
+   "takeaways": [
+    "A confident grasp of visual fundamentals",
+    "A reusable set of components in Figma",
+    "A responsive project for your portfolio"
+   ],
+   "contents": [
+    "Lay the groundwork",
+    "Find your visual voice",
+    "Build your toolkit",
+    "Make it responsive",
+    "Bring your project to life"
+   ],
+   "images": [
+    "images/samples/s3.jpg",
+    "images/samples/s4.jpg",
+    "images/samples/s5.jpg",
+    "images/samples/s6.jpg",
+    "images/samples/s1.jpg"
+   ],
+   "created": "2026-11-18T10:00:00Z"
+  },
+  {
+   "slug": "figma-essentials",
+   "title": "Figma essentials: make your first app",
+   "author": "Maya Chen",
+   "category": "Zelle",
+   "price": 500,
+   "short": "A practical, project-led guide to confident UI design.",
+   "description": "Make interfaces that look good, feel intuitive, and work in the real world. A practical guide for curious beginners, from the first principles to your first polished product.\n\nA hands-on introduction to the decisions behind thoughtful interfaces. Build your confidence in layout, colour and typography, then bring it all together in a responsive project.",
+   "details": [
+    "PDF edition",
+    "English",
+    "Instant digital access"
+   ],
+   "highlights": [
+    "24 practical, bite-sized lessons",
+    "Project files & downloadable resources",
+    "Certificate of completion"
+   ],
+   "takeaways": [
+    "A confident grasp of visual fundamentals",
+    "A reusable set of components in Figma",
+    "A responsive project for your portfolio"
+   ],
+   "contents": [
+    "Lay the groundwork",
+    "Find your visual voice",
+    "Build your toolkit",
+    "Make it responsive",
+    "Bring your project to life"
+   ],
+   "images": [
+    "images/samples/s4.jpg",
+    "images/samples/s5.jpg",
+    "images/samples/s6.jpg",
+    "images/samples/s1.jpg",
+    "images/samples/s2.jpg"
+   ],
+   "created": "2026-11-17T10:00:00Z"
+  },
+  {
+   "slug": "a-visual-identity-that-feels-like-you",
+   "title": "A visual identity that feels like you",
+   "author": "Maya Chen",
+   "category": "Crypto",
+   "price": 500,
+   "short": "From your first moodboard to a complete brand system.",
+   "description": "Make interfaces that look good, feel intuitive, and work in the real world. A practical guide for curious beginners, from the first principles to your first polished product.\n\nA hands-on introduction to the decisions behind thoughtful interfaces. Build your confidence in layout, colour and typography, then bring it all together in a responsive project.",
+   "details": [
+    "PDF edition",
+    "English",
+    "Instant digital access"
+   ],
+   "highlights": [
+    "24 practical, bite-sized lessons",
+    "Project files & downloadable resources",
+    "Certificate of completion"
+   ],
+   "takeaways": [
+    "A confident grasp of visual fundamentals",
+    "A reusable set of components in Figma",
+    "A responsive project for your portfolio"
+   ],
+   "contents": [
+    "Lay the groundwork",
+    "Find your visual voice",
+    "Build your toolkit",
+    "Make it responsive",
+    "Bring your project to life"
+   ],
+   "images": [
+    "images/samples/s5.jpg",
+    "images/samples/s6.jpg",
+    "images/samples/s1.jpg",
+    "images/samples/s2.jpg",
+    "images/samples/s3.jpg"
+   ],
+   "created": "2026-11-16T10:00:00Z"
+  },
+  {
+   "slug": "launch-your-first-no-code-website",
+   "title": "Launch your first no-code website",
+   "author": "Maya Chen",
+   "category": "Idme",
+   "price": 500,
+   "short": "Go from blank canvas to a responsive site, step by step.",
+   "description": "Make interfaces that look good, feel intuitive, and work in the real world. A practical guide for curious beginners, from the first principles to your first polished product.\n\nA hands-on introduction to the decisions behind thoughtful interfaces. Build your confidence in layout, colour and typography, then bring it all together in a responsive project.",
+   "details": [
+    "PDF edition",
+    "English",
+    "Instant digital access"
+   ],
+   "highlights": [
+    "24 practical, bite-sized lessons",
+    "Project files & downloadable resources",
+    "Certificate of completion"
+   ],
+   "takeaways": [
+    "A confident grasp of visual fundamentals",
+    "A reusable set of components in Figma",
+    "A responsive project for your portfolio"
+   ],
+   "contents": [
+    "Lay the groundwork",
+    "Find your visual voice",
+    "Build your toolkit",
+    "Make it responsive",
+    "Bring your project to life"
+   ],
+   "images": [
+    "images/samples/s6.jpg",
+    "images/samples/s1.jpg",
+    "images/samples/s2.jpg",
+    "images/samples/s3.jpg",
+    "images/samples/s4.jpg"
+   ],
+   "created": "2026-11-15T10:00:00Z"
+  },
+  {
+   "slug": "the-art-of-everyday-photography",
+   "title": "The art of everyday photography",
+   "author": "Maya Chen",
+   "category": "Cash App",
+   "price": 500,
+   "short": "Tell better stories with light, composition and your camera.",
+   "description": "Make interfaces that look good, feel intuitive, and work in the real world. A practical guide for curious beginners, from the first principles to your first polished product.\n\nA hands-on introduction to the decisions behind thoughtful interfaces. Build your confidence in layout, colour and typography, then bring it all together in a responsive project.",
+   "details": [
+    "PDF edition",
+    "English",
+    "Instant digital access"
+   ],
+   "highlights": [
+    "24 practical, bite-sized lessons",
+    "Project files & downloadable resources",
+    "Certificate of completion"
+   ],
+   "takeaways": [
+    "A confident grasp of visual fundamentals",
+    "A reusable set of components in Figma",
+    "A responsive project for your portfolio"
+   ],
+   "contents": [
+    "Lay the groundwork",
+    "Find your visual voice",
+    "Build your toolkit",
+    "Make it responsive",
+    "Bring your project to life"
+   ],
+   "images": [
+    "images/samples/s1.jpg",
+    "images/samples/s2.jpg",
+    "images/samples/s3.jpg",
+    "images/samples/s4.jpg",
+    "images/samples/s5.jpg"
+   ],
+   "created": "2026-11-14T10:00:00Z"
+  },
+  {
+   "slug": "your-social-content-with-a-strategy",
+   "title": "Your social content, with a strategy",
+   "author": "Maya Chen",
+   "category": "Sportybet",
+   "price": 500,
+   "short": "Build an authentic presence without chasing every trend.",
+   "description": "Make interfaces that look good, feel intuitive, and work in the real world. A practical guide for curious beginners, from the first principles to your first polished product.\n\nA hands-on introduction to the decisions behind thoughtful interfaces. Build your confidence in layout, colour and typography, then bring it all together in a responsive project.",
+   "details": [
+    "PDF edition",
+    "English",
+    "Instant digital access"
+   ],
+   "highlights": [
+    "24 practical, bite-sized lessons",
+    "Project files & downloadable resources",
+    "Certificate of completion"
+   ],
+   "takeaways": [
+    "A confident grasp of visual fundamentals",
+    "A reusable set of components in Figma",
+    "A responsive project for your portfolio"
+   ],
+   "contents": [
+    "Lay the groundwork",
+    "Find your visual voice",
+    "Build your toolkit",
+    "Make it responsive",
+    "Bring your project to life"
+   ],
+   "images": [
+    "images/samples/s2.jpg",
+    "images/samples/s3.jpg",
+    "images/samples/s4.jpg",
+    "images/samples/s5.jpg",
+    "images/samples/s6.jpg"
+   ],
+   "created": "2026-11-13T10:00:00Z"
+  },
+  {
+   "slug": "design-systems-that-grow-with-you",
+   "title": "Design systems that grow with you",
+   "author": "Maya Chen",
+   "category": "Zelle",
+   "price": 500,
+   "short": "Create a flexible UI toolkit for your next big idea.",
+   "description": "Make interfaces that look good, feel intuitive, and work in the real world. A practical guide for curious beginners, from the first principles to your first polished product.\n\nA hands-on introduction to the decisions behind thoughtful interfaces. Build your confidence in layout, colour and typography, then bring it all together in a responsive project.",
+   "details": [
+    "PDF edition",
+    "English",
+    "Instant digital access"
+   ],
+   "highlights": [
+    "24 practical, bite-sized lessons",
+    "Project files & downloadable resources",
+    "Certificate of completion"
+   ],
+   "takeaways": [
+    "A confident grasp of visual fundamentals",
+    "A reusable set of components in Figma",
+    "A responsive project for your portfolio"
+   ],
+   "contents": [
+    "Lay the groundwork",
+    "Find your visual voice",
+    "Build your toolkit",
+    "Make it responsive",
+    "Bring your project to life"
+   ],
+   "images": [
+    "images/samples/s3.jpg",
+    "images/samples/s4.jpg",
+    "images/samples/s5.jpg",
+    "images/samples/s6.jpg",
+    "images/samples/s1.jpg"
+   ],
+   "created": "2026-11-12T10:00:00Z"
+  }
+ ]
+}

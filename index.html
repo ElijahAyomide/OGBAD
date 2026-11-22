@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OGBAD | Digital updates</title>
+  <meta name="description" content="Preview the pages of each update, then buy by bank transfer. Your update is sent to your email.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Home"><img src="images/logo.png" alt="" onerror="this.remove()"><span class="wordmark" data-store-name>OGBAD</span></a>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html" class="on" aria-current="page">Home</a>
+        <a href="#browse">Browse update</a>
+        <a href="contact.html">Contact us</a>
+      </nav>
+      <div class="header-right">
+        <a class="portal" href="admin/">Admin portal</a>
+        <a class="btn arr" href="#browse">Explore update </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero on-dark">
+      <div class="wrap hero-inner">
+        <div>
+          <p class="eyebrow lime" id="h-eyebrow"></p>
+          <h1 class="h-xl" id="h-title"></h1>
+          <p class="lead" id="h-text"></p>
+          <div class="hero-cta">
+            <a class="btn arr" href="#browse">Explore update </a>
+            <span id="h-note"></span>
+          </div>
+        </div>
+        <figure class="hero-fig hidden" id="h-fig" style="margin:0"><img id="h-img" alt=""></figure>
+      </div>
+    </section>
+
+    <section class="section" id="shelf">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">The updateshelf</p>
+            <h2 class="h-lg">Good updates. Great beginnings.</h2>
+          </div>
+          <div class="arrows">
+            <button type="button" id="prev" aria-label="Previous updates">←</button>
+            <button type="button" id="next" aria-label="Next updates">→</button>
+          </div>
+        </div>
+        <div class="track" id="track" tabindex="0" aria-label="Latest updates"></div>
+        <div class="track-foot"><span id="count"></span><span>Slide left or right to discover more updates</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="browse" style="padding-top:24px">
+      <div class="wrap">
+        <div class="find-head">
+          <div>
+            <h2 class="h-lg">Find your next update.</h2>
+            <p class="muted">Small steps today. Bigger possibilities tomorrow.</p>
+          </div>
+          <form class="search" id="search" role="search">
+            <input id="q" type="search" placeholder="Which update are you looking for ..." aria-label="Search updates">
+            <button type="submit">Search</button>
+          </form>
+        </div>
+        <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+        <div class="grid" id="grid" aria-live="polite"><p class="empty">Loading updates…</p></div>
+      </div>
+    </section>
+
+    <section class="band on-dark">
+      <div class="wrap band-inner">
+        <h2 class="h-lg">Less scrolling.<br>More becoming.</h2>
+        <div>
+          <p class="eyebrow lime" style="margin-bottom:12px">Make room for a good update</p>
+          <p>Practical new things, at your pace. Keep your favourite ideas close and return to them whenever inspiration calls.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="wrap news-inner">
+        <div>
+          <p class="eyebrow" style="color:var(--ink)">A little inspiration, delivered.</p>
+          <h2>Your inbox, well read.</h2>
+          <p>New updates, fresh ideas, and something worth opening.</p>
+        </div>
+        <div>
+          <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="news">
+            <input type="hidden" name="form-name" value="newsletter">
+            <p hidden><input name="bot-field"></p>
+            <input type="email" name="email" placeholder="Your email address" aria-label="Your email address" required>
+            <button type="submit" class="arr">Keep me updated </button>
+          </form>
+          <p class="note" id="news-note">Just the good stuff. Unsubscribe whenever.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div><a class="brand" href="index.html"><img src="images/logo.png" alt="" onerror="this.remove()"><span class="wordmark" data-store-name>OGBAD</span></a><p class="tag" data-tagline></p></div>
+        <div><h4>Explore</h4><ul><li><a href="#browse">Browse updates</a></li><li><a href="contact.html">Contact us</a></li></ul></div>
+        <div><h4>Manage</h4><ul><li><a href="admin/">Admin portal</a></li></ul></div>
+      </div>
+      <div class="foot-base"><span>© <span data-year></span> <span data-store-name></span>. Keep updating.</span><span>Digital updates. Lasting ideas.</span></div>
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
