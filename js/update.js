@@ -97,7 +97,7 @@
   });
 
   // On your own computer (preview) nothing is sent; once the site is live on Netlify the email is sent.
-  const preview = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) || location.protocol === 'file:';
+  const preview = /^(localhost|127\.0\.0\.1|\[::1\])$|\.github\.io$/.test(location.hostname) || location.protocol === 'file:';
   $('#paid').addEventListener('click', async (e) => {
     const btn = e.target; btn.disabled = true; $('#p-error').textContent = '';
     try {

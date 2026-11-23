@@ -1,35 +1,33 @@
-# OGBAD: Step 1 (frontend only)
+# OGBAD: public site, ready for Netlify
 
-This step has the two public pages only. There is no admin and no email yet; those come in the next steps.
+Home page, update page and contact page, with your Buy, Contact and Newsletter forms ready for Netlify Forms.
+The admin portal (`/admin/`) is a "coming soon" page for now; it is built in the next step.
 
-- `index.html`    Home page
-- `contact.html`  Contact page (message form + quick answers)
-- `update.html`   Page for one update (opened as `update.html?u=the-update-name`)
-- `updates.json`  SAMPLE updates so you can see the pages. Step 2 (the admin) will replace these with your real ones.
-- `images/logo.png` your logo. `images/hero.jpg` the home page photo (cropped from your design). `images/samples/` are placeholder pictures only.
-- `css/styles.css` colours and fonts are at the top (`:root`). `js/` holds the behaviour.
+## Put it online (about 15 minutes)
+1. Copy everything in this folder into your project folder (replace files when asked).
+   If you earlier copied the PHP admin version, first delete these from your project: the `admin` folder, the `private` folder and the `.htaccess` file.
+2. In VS Code terminal:
+       git add -A
+       git commit -m "Ready for Netlify"
+       git push
+3. Go to netlify.com > **Sign up** > choose **Sign up with GitHub**.
+4. **Add new project > Import an existing project > GitHub**, allow access, and pick your repository.
+5. Leave the build command empty. The publish directory should be `.` (it is already set in `netlify.toml`). Click **Deploy**.
+6. When it says published, open **Project configuration > Change project name** and choose a short name. Your link becomes `https://thatname.netlify.app`.
 
-## See it on your computer
-1. Open this folder in VS Code (File > Open Folder).
-2. Install the extension **Live Server** (by Ritwick Dey) from the Extensions tab.
-3. Right-click `index.html` > **Open with Live Server**. Click an update to open its page and try "Buy this update".
-   (Opening the file by double-clicking will not work, because the page loads `updates.json`.)
-In this preview the "I have made payment" button does not send an email; it only shows the thank-you message.
-The email part is added when the site goes live (Step 3). The contact form works the same way: in preview it only shows the thank-you message.
+## Get the emails (one notification per form)
+1. In Netlify open **Forms**. After the first deploy you should see three forms: `payment-claim`, `contact` and `newsletter`.
+2. **Project configuration > Notifications > Emails and webhooks > Add notification > Email notification.**
+3. Event: **New form submission**. Form: pick one. Email: your email. Save.
+4. Repeat for the other two forms (the same email is fine; the subject shows which form it came from).
+(Menu names can change slightly; look for Notifications in the project settings.)
 
-## Put it on GitHub
-In the VS Code terminal:
+## Test
+1. Open your netlify.app link, open an update, click **Buy this update**, fill in your own name and email and click through to **I have made payment**.
+2. Check your inbox (and Spam) for the alert. Do the same on the Contact page and the Newsletter box.
+3. Don't share the link yet: the updates you see are samples until the admin is built.
 
-    git add -A
-    git commit -m "Step 1: frontend pages"
-    git push
-
-## Where to edit wording
-- Page headings and fixed text: `index.html` and `update.html`
-- Update titles, prices, categories, descriptions, bank details: `updates.json` (temporary; the admin will do this for you in Step 2)
-
-## The plan
-1. Frontend pages (this step), you review and we adjust
-2. Admin portal: login, add / edit / delete updates with cover + 4 screen shots, bank details
-3. Go live on Netlify + the "I have made payment" email alert
-4. Final tests with a real transfer
+## Notes
+- The updates are samples from `updates.json`. The admin will replace them with your real ones.
+- Bank details shown at checkout are placeholders until the admin lets you change them.
+- Netlify's form spam filter is switched on, and each form has a hidden trap field for bots.

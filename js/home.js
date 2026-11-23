@@ -62,7 +62,7 @@
     const f = e.target, btn = f.querySelector('button'), note = $('#news-note');
     btn.disabled = true;
     try {
-      const preview = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) || location.protocol === 'file:';
+      const preview = /^(localhost|127\.0\.0\.1|\[::1\])$|\.github\.io$/.test(location.hostname) || location.protocol === 'file:';
       if (!preview) {
       const r = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(new FormData(f)).toString() });
       if (!r.ok) throw new Error();

@@ -5,7 +5,7 @@
   chrome();
 
   // On your own computer (preview) nothing is sent; once the site is live on Netlify the message is emailed to you.
-  const preview = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) || location.protocol === 'file:';
+  const preview = /^(localhost|127\.0\.0\.1|\[::1\])$|\.github\.io$/.test(location.hostname) || location.protocol === 'file:';
   const form = $('#contact'), err = $('#c-error'), btn = $('#c-send');
 
   form.addEventListener('submit', async (e) => {
